@@ -1,0 +1,324 @@
+
+body {
+	background-color:#8dced0;
+	font-size:14px;
+}
+
+.logo {
+	padding:10px;
+	vertical-align: bottom;
+}
+
+.menu {
+	position:absolute;
+	right:0px;
+	bottom:50px;
+}
+
+.menu li {
+	display:inline-block;
+	text-align:center;
+	margin-right:16px;
+	color:white;
+	font:16px/1.0 'Cabin Sketch' ,cursive, sans-serif;
+}
+
+.header-wrap {
+	background-color:#005e91;
+}
+
+.header {
+	margin:0 auto;
+	width:980px;
+	/*border:2px solid #005e91;*/
+	background-color:#005e91;
+	position:relative;
+	
+}
+
+.header02-wrap {
+	/*border:2px solid red;*/
+	background-image: url("images/sub_mainimage.jpg");
+
+}
+
+.header02 {
+	margin:0 auto;
+	background-image: url("images/sub_mainimage.jpg");
+	width:980px;
+	height:250px;
+	
+}
+
+.header02 h2 {
+	font-size: 45px;
+    font-weight: bold;
+    line-height: 180px;
+    color: #2b345b;
+}
+
+
+.container-wrap {
+	/*border:2px solid red;*/
+	background-color:#8dced0;
+}
+
+.container {
+	width:980px;
+	margin:0 auto;
+	/*border:2px solid red;*/
+	position:relative;
+}
+
+.container01 {
+	width:980px;
+	/*border:2px solid red;*/
+}
+
+.container01 img {
+	zoom: 1.5;
+}
+
+.RSG-ABOUT {
+	font-size:11px;
+	padding-top:50px;
+	padding-bottom:30px;
+}
+
+.container01 h2 {
+	color: #2b345b;
+    font: bold 30px/1.0 'メイリオ','Meiryo','ＭＳ Ｐゴシック',
+    'MS PGothic','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',
+    sans-serif;
+    margin: 40px 0 30px;
+}
+
+.container01-txt {
+
+	font-size:14px;
+	float:left;
+	position:relative;
+	line-height:20px;
+}
+
+.container01-txt img {
+	position:absolute;
+	right:0px;
+}
+
+.container02 {
+	/*border:2px solid red;*/
+	width:980px;
+	padding-bottom:80px;
+}
+
+.container02 h2 {
+	font-size:30px;
+	font-weight:bold;
+	color:#2b345b;
+	padding-bottom:30px;
+}
+
+.container02 p {
+	padding-bottom:10px;
+}
+
+.container02 li {
+	display:inline-block;
+	margin-right:10px;
+}
+
+
+/*　選手一覧（紹介）　*/
+.container03 {
+	/*border:2px solid red;*/
+	width:980px;
+	height:550px;
+	position:relative;
+}
+
+.container03 img {
+	border:10px solid #FFF;
+}
+
+.profile {
+	position:absolute;
+	top:10px;
+	left:340px;
+}
+
+.profile h3 {
+	font-size:26px;
+	font-weight:bold;
+	color:#2b345b;
+	padding-bottom:20px;
+}
+
+
+table {
+	border-collapse:separate;
+	border-spacing:10px 4px;
+}
+
+tr {
+	height:35px;
+	margin:5px;
+	border: 2px solid #fff;
+}
+
+th {
+	border-left:solid 5px #2b345b;
+	border-collapse: separate;
+ 	border-spacing: 15px; 
+	vertical-align:middle;
+	padding-left:5px;
+	font-weight:bold;
+}
+
+td {
+	vertical-align:middle;
+	padding-left:20px;
+}
+
+.prolile-date {
+
+
+	border:dotted 3px #78b1ba;
+	padding:30px;
+	margin-top:15px;
+	margin-right:180px;
+	width:580px;
+}
+
+.page-back {
+	position:absolute;
+	top:520px;
+	left:440px;
+}
+
+.page-back04 {
+	/*border:2px solid #ffff00;*/
+	position:absolute;
+	top:520px;
+	left:440px;
+}
+
+/*　お問い合わせ　*/
+.ontact_btn {
+	/*border:2px solid red;*/
+	width:980px;
+	text-align:center;
+	margin:0 auto;
+	padding:50px 0px;
+}
+
+.ontact_btn img {
+	zoom:0.7;
+}
+
+.footer-wrap {
+	background-image: url("images/foot_bg.png");
+	/*border:2px solid red;*/
+}
+
+.footer {
+	margin:0 auto;
+	width:980px;
+	background-image: url("images/foot_bg.png");
+	/*border:2px solid red;*/
+
+}
+
+.pagetop {
+	height:110px;
+	margin-top:-40px;
+	margin-left:840px;
+}
+
+.footer p {
+	text-align:center;
+	font:40px/1.0 'Cabin Sketch' ,cursive, sans-serif;
+	color:#fff;
+}
+
+.footer ul {
+	text-align:center;
+	padding-top:20px;
+}
+
+.footer li {
+	display:inline-block;
+	text-align:center;
+	color:white;
+	margin-right:10px;
+}
+
+.icon {
+	
+	
+}
+
+.icon-all {
+	
+	margin-left:340px;
+	margin-top:30px;
+	padding-bottom:100px;
+	
+}
+
+.f-box {
+	/*border:2px solid #0000ff;*/
+	float:left;
+	
+}
+
+.facebook {
+	position:relative;
+	
+}
+
+.f-hukidasi {
+	position:absolute;
+	top:-10px;
+	left:40px;
+}
+
+.t-box {
+	/*border:2px solid #66cdaa;*/
+	float:left;
+	margin-left:30px;
+}
+
+.twitter {
+	position:relative;
+}
+
+.t-hukidasi {
+	position:absolute;
+	top:-10px;
+	left:40px;
+}
+
+.pin{
+	/*border:2px solid #ff0000;*/
+	float:left;
+	margin-left:30px;
+}
+
+.inst{
+	/*border:2px solid #ffff00;*/
+	margin-left:30px;
+	float:left;
+}
+
+.footer02 {
+	background-color:#603813;
+	text-align:center;
+	color:#fff;
+	margin:0 auto;
+	padding:30px;
+	clear:both;
+}
+
+
+
