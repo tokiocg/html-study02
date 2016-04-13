@@ -4,6 +4,14 @@ body {
 	font-size:14px;
 }
 
+a:link {
+	color:#fff;
+}
+
+a:visited {
+	color:#fff;
+}
+
 .logo {
 	padding:10px;
 	vertical-align: bottom;
@@ -147,6 +155,15 @@ body {
 	left:340px;
 }
 
+.profile a {
+	color: #2b345b;
+}
+
+.profile a:link:hover {
+	color:#e76462;
+	text-decoration: underline;
+}
+
 .profile h3 {
 	font-size:26px;
 	font-weight:bold;
@@ -180,7 +197,7 @@ td {
 	padding-left:20px;
 }
 
-.prolile-date {
+.prolile-date03 {
 
 
 	border:dotted 3px #78b1ba;
@@ -188,6 +205,14 @@ td {
 	margin-top:15px;
 	margin-right:180px;
 	width:580px;
+}
+
+
+.prolile-date {
+	border:dotted 3px #78b1ba;
+	padding:30px;
+	margin-top:15px;
+	margin-right:180px;
 }
 
 .page-back {
@@ -227,6 +252,10 @@ td {
 	background-image: url("images/foot_bg.png");
 	/*border:2px solid red;*/
 
+}
+
+.footer li a:hover {
+	text-decoration: underline;
 }
 
 .pagetop {
